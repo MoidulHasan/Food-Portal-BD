@@ -96,13 +96,38 @@ body{
     }
     .recipies-textbox{
         text-align: center;
+        padding: 40px;
     }
     .recipies-textbox p{
-        margin: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 0px;
     }
     .Our-Recipies-headline{
         padding: 10px 0px 0px 40px;
         font-weight: bold;
         color: #FB954B;
         font-size: 40px;
+    }
+    .recipies-items{
+        display: flex;
+        padding-left: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-bottom: 80px;
+    }
+    .recipies-single{
+        margin-left: 15px;
+        margin-right: 66px;
+        box-shadow: 10px 10px 30px rgb(165, 165, 165);
+        border-radius: 20px;
+    }
+    .recipies-image{
+        width: 300px;
+        height: 250px;
+        padding: 15px;
+        border-radius: 35px;
+    }
+    .recipies-descriptions{
+        padding: 25px;
     }
