@@ -3,25 +3,30 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
     .header{
-        padding: 20px;
         background-color: #F7F7F7;
-        height: 50px;
+        height: 80px;
+        display: flex;
+        padding: 5px;
     }
     .header-image{
         width: 50px;
         height: 50px;
-        padding-left: 100px;
+        padding: 15px 5px 5px 50px;
+    }
+    .header h1{
+        font-weight: bold;
+        text-align: center;
     }
     .header-menu{
         float: right;
-        padding: 16px;
+        padding: 30px 16px 16px 350px;
     }
 
     .header-menu a{
         font-weight: bold;
         text-align: center;
         text-decoration: none;
-        padding: 20px;
+        padding: 15px;
         color: lightcoral;
     }
     #active{
@@ -29,5 +34,75 @@ body{
         border-radius: 15px;
         color: white;
     }
-
-    
+    .flex-container{
+        padding: 25px 25px 0px 50px;
+        display: flex;
+    }
+    span{
+        color: #FB954B;
+    }
+    .headline{
+        font-weight: bold;
+        font-size: 60px;
+    }
+    .half-width{
+        width: 50%;
+    }
+    .half-width h3{
+        font-size: 20px;
+        color: rgb(155, 122, 122);
+        padding-bottom: 20px;
+    }
+    .active-button{
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        background-color: #FE4A2F;
+        border-radius: 15px;
+        color: white;
+    }
+    .half-width-image{
+        width: 559px;
+        height: 648px;
+        padding-left: 50px;
+    }
+    .about{
+        background-image: url(../image/Frame58.jpg);
+        background-size: 100%;
+        padding: 95px;
+    }
+    .aboutus-image{
+        height: 436px;
+        width: 545px;
+    }
+    .About-US-headline{
+        font-weight: bold;
+        font-size: 60px;
+        padding-left: 120px;
+    }
+    .aboutus-paragraph{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .contact-button{
+        float: right;
+        padding-right: 30px;
+        padding-left: 30px;
+        margin-right: 225px;
+    }
+    .recipies{
+        padding: 40px;
+    }
+    .recipies-textbox{
+        text-align: center;
+    }
+    .recipies-textbox p{
+        margin: 20px;
+    }
+    .Our-Recipies-headline{
+        padding: 10px 0px 0px 40px;
+        font-weight: bold;
+        color: #FB954B;
+        font-size: 40px;
+    }
