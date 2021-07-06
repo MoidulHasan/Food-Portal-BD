@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+    .header{
+        padding: 20px;
+        background-color: #F7F7F7;
+        height: 50px;
+    }
+    .header-image{
+        width: 50px;
+        height: 50px;
+        padding-left: 100px;
+    }
+    .header-menu{
+        float: right;
+        padding: 16px;
+    }
+
+    .header-menu a{
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        padding: 20px;
+        color: lightcoral;
+    }
+    #active{
+        background-color: #FE4A2F;
+        border-radius: 15px;
+        color: white;
+    }
+
+    
