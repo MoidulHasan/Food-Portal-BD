@@ -119,7 +119,7 @@ body{
     .recipies-single{
         margin-left: 15px;
         margin-right: 66px;
-        box-shadow: 10px 10px 30px rgb(165, 165, 165);
+        box-shadow: 10px 10px 15px rgb(165, 165, 165);
         border-radius: 20px;
     }
     .recipies-image{
@@ -130,4 +130,24 @@ body{
     }
     .recipies-descriptions{
         padding: 25px;
+    }
+    .section-six{
+        display: flex;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-bottom: 7%;
+        box-shadow: 10px 10px 30px rgb(165, 165, 165);
+        border-radius: 20px;
+        padding-left: 130px;
+    }
+    .section-six-item{
+        padding: 30px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    footer{
+        background-color: #F7F7F7;
+        margin-bottom: 0;
+        text-align: center;
+        padding: 10px;
     }
